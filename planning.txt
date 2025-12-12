@@ -1,0 +1,14 @@
+put all images in one folder (DONE)
+Assure all images are 2 channels. (if not, count the not, if very few, remove them) (DONE)
+count the images where size is <=299, if very few remove them (DONE)
+downsize all to 299x299 (DONE)
+0-255 --> [0,1]
+
+
+Now initial preprocessing done. 
+We need to consider:
+ - integration OR Augmentatino
+ - Best Ensemble methods
+
+Our goal is best accuracy without overfitting.
+
